@@ -1,0 +1,48 @@
+# basic coding practice
+2+2 #ctrl + enter ot ctrl + R 
+# works as calculator
+
+#Packages 
+install.packages("readr")
+library(readr)
+
+# read data into R
+education <- read.csv(file.choose())
+
+education
+View(education)
+
+attach(education)
+
+# Exploratory data annalysis 
+# Measures of Central tendency / first moment business descision 
+# mean (education$workx) $ is used to refer to the variable within object
+#attach(education ) When used we can directly refer tothe variable name
+mean(workex)
+rm(education) # to remove specific object 
+rm(list = ls()) # to remove all object to free ram
+
+median(workex) # Median
+#Mode
+x <-  c(19,4,5,29,19,13,25,19)
+mode  <- table(as.vector(x))
+mode  
+
+# finding mode by function method
+x <-  c(19,4,5,29,19,13,25,19)
+mode1 <- function(x) {
+     a = table(x) # x is a vector
+
+     return(a[which.max(a)])  
+}
+mode1(x)
+#Measures of Dispersion/ second moment business descison
+var(education$workex)
+sd(workex)
+range <-  max(workex)- min(workex) #range
+range
+workex
+
+# Third moment busienss descision 
+install.packages("moments")
+library(moments)
