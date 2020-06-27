@@ -9,13 +9,12 @@ package hello;
  *
  * @author Home
  */
-public class Hello {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        System.out.print("hello sakti");
-    }
-    
-}
+/*
+public class Hello {
+    public static void main(String[]argc)
+    {System.out.print("Hello\n");} }
+*/
+public class hello{
+public static void main(String[]argc){
+System.out.print("hello Tapas");}}
