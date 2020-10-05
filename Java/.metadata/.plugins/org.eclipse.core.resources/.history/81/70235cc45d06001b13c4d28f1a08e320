@@ -1,0 +1,17 @@
+
+public class App {
+
+	public static void main(String[] args) {
+		//Decalre arrow of reference 
+		String[] words = new String[3];
+		
+		//set the array reference to point the reference 
+		
+		words[0] = "Hello";
+		words[1] = "to";
+		words[2] = "you";
+	System.out.println(words[2]);
+
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class App {
+
+	public static void main(String[] args) {
+	//1D array
+		int [] values = {3,5,2343};
+		//Only need 1 index to access values.
+		System.out.println(values[1]);
+
+	}
+
+}

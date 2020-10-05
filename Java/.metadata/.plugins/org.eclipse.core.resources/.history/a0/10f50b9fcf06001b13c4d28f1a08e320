@@ -1,0 +1,28 @@
+
+public class App {
+
+	public static void main(String[] args) {
+	//1D array
+		int [] values = {3,5,2343};
+		//Only need 1 index to access values.
+		System.out.println(values[2]);
+		
+		
+		int [][] grid = {{3,4,2343},
+				        {2,4},
+				        {1,2,3,4}
+				        };
+		System.out.println(grid[1][1]);
+		System.out.println(grid[0][2]);
+		System.out.println(grid[2][3]);
+		
+		//can also create without initializing.
+		String [][] texts = new String[2][3];
+		texts[0][1] = "Hello there";
+		texts[0][0] = "hello not there";
+		System.out.println(texts[0][0]);
+		System.out.println(texts[0][1]);
+		
+		
+		}
+}

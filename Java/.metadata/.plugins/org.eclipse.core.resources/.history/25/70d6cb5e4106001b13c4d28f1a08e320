@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+
+public class Application {
+
+	public static void main(String[] args) {
+		// Create a scanner object 
+		Scanner input; // ctrl + shift + O to import short-cut 
+
+	}
+
+}

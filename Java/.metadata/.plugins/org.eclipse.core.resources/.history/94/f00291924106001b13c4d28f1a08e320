@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+
+public class Application {
+
+	public static void main(String[] args) {
+		// Create a scanner object 
+		Scanner input = new Scanner(System.in); // ctrl + shift + O to import short-cut 
+		
+		System.out.println("Enter a line of text ");
+     String line = input.nextLine();
+		
+	}
+
+}

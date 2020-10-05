@@ -1,0 +1,20 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		int myNumber = 88;
+		short myShort = 847;
+		long myLong = 9797;
+		
+		double myDouble = 7.3244;
+		float myFloat = 343.3f;
+		
+		System.out.println(myNumber);
+		System.out.println(myShort);
+		System.out.println(myLong);
+		System.out.println(myDouble);
+		System.out.println(myFloat);
+
+	}
+
+}
